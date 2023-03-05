@@ -1,0 +1,46 @@
+.projectcards {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+}
+
+.whynotcard {
+    color: black;
+    background: white;
+    border: 0.1rem solid black;
+    border-radius: var(--border-radius-1);
+    padding: 2.2rem;
+}
+
+.ncgamescard {
+    color: black;
+    border: 0.1rem solid black;
+    background: white;
+    border-radius: var(--border-radius-1);
+    padding: 2.2rem;
+}
+
+.whynotcard:hover {
+    background-color: transparent;
+    border: 0.1rem solid white;
+    transform: translateY(-0.5rem);
+}
+
+.ncgamescard:hover {
+    background-color: transparent;
+    border: 0.1rem solid white;
+    transform: translateY(-0.5rem);
+}
+
+.projectcards h4 {
+    text-align: center;
+}
+
+.btn {
+padding: 0.5rem;
+border-radius: var(--border-radius-1);
+background: var(--primary);
+color: white;
+margin-left: 1rem;
+}

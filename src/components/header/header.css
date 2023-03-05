@@ -1,0 +1,59 @@
+header {
+    margin-top: 5rem;
+    height: calc(100vh - 5rem);
+    display: grid;
+    place-items: center;
+    background: white;
+    transition: var(--transition);
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.header__profile {
+    height: fit-content;
+    border-radius: 9rem 9rem 2rem 2rem;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+.MeImg {
+width: 20rem;
+}
+
+.header__container p {
+    width: 35rem;
+    text-align: center;
+    margin: 0.6rem 0 2rem;
+}
+
+.header__cta {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.header__socials {
+    display: flex;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.header__socials a {
+    width: 3rem;
+    color: black;
+    aspect-ratio: 1/1;
+    background: var(--col-light);
+    border-radius: var(--border-radius-3);
+    place-items: center;
+}
+
+.header__socials a:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-0.5rem);
+}

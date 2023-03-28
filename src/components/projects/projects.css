@@ -24,13 +24,11 @@
 }
 
 .whynotcard:hover {
-    background-color: transparent;
     border: 0.1rem solid white;
     transform: translateY(-0.5rem);
 }
 
 .ncgamescard:hover {
-    background-color: transparent;
     border: 0.1rem solid white;
     transform: translateY(-0.5rem);
 }

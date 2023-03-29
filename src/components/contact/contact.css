@@ -1,3 +1,24 @@
 .contact__container h4 {
     margin-top: 2rem;
 }
+
+.btton {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--col-light);
+    color: black;
+    padding: 0.6rem 2.5rem;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius-2);
+    cursor: pointer;
+    background: var(--primary);
+    color: white;
+    margin-top: 1rem;
+}
+
+.btton:hover {
+    border-color: var(--col-light);
+    transform: translateY(-0.5rem);
+}

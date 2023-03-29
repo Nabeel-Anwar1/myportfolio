@@ -6,6 +6,12 @@ const Projects = () => {
       <div className="container projects__container">
         <h2>Projects</h2>
         <div className="projectcards">
+        <article className="whynotcard">
+              <h4>Snooker Scorer (In Progress)</h4> <br/>
+              <h5>A mobile app where players can keep track of their scores while playing snooker</h5><br/>
+              <small>Currently in progress! - I made this app because one of my family members is an avid snooker player and they were in need (and asked me) to create an app where they could keep track of scores from across the table and input values that can be added or taken away from the total score. I am in the process of creating the functionality first and then making it look nice, then finally adding any extra functionality.</small>
+                <a href="https://github.com/Nabeel-Anwar1/SnookerScorer" target="_blank" rel="noopener noreferrer" className="btton">More info!</a>
+            </article>
             <article className="whynotcard">
               <h4>Why Not!</h4> <br/>
               <h5>Why Not? is an app where users can create, share and manage their own Bucket Lists.</h5><br/>

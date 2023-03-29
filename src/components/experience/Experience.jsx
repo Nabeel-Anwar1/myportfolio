@@ -6,6 +6,10 @@ const Experience = () => {
       <div className="container experiences_container">
         <h2>Experience</h2>
         <div className="articles">
+        <article>
+            <h5>Home Bargains</h5>
+            <small>Currently working part-time at Home Bargains, I am improving on my communication and teamwork as the tasks require lots interaction between myself and my colleagues, and with customers. I am also focused on upskilling and projects in my down-time.</small>
+          </article>
           <article>
             <h5>Northcoders</h5>
             <small>13-week coding bootcamp to become junior full-stack developer. Some of the things I learned here are: JavaScript, Git Practices, AGILE methodology, OOP, PSQL, APIs, Testing, Backend, Frontend, Databases, Web development, Mobile development.</small>

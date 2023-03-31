@@ -8,7 +8,7 @@
 .whynotcard {
     color: black;
     background: white;
-    border: 0.1rem solid black;
+    border: 0.1rem solid white;
     border-radius: var(--border-radius-1);
     padding: 2.2rem;
     transition: var(--transition);
@@ -16,7 +16,7 @@
 
 .ncgamescard {
     color: black;
-    border: 0.1rem solid black;
+    border: 0.1rem solid white;
     background: white;
     border-radius: var(--border-radius-1);
     transition: var(--transition);
@@ -24,12 +24,12 @@
 }
 
 .whynotcard:hover {
-    border: 0.1rem solid white;
+    border: 0.1rem solid black;
     transform: translateY(-0.5rem);
 }
 
 .ncgamescard:hover {
-    border: 0.1rem solid white;
+    border: 0.1rem solid black;
     transform: translateY(-0.5rem);
 }
 

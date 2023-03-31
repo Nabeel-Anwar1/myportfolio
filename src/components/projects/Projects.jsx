@@ -13,7 +13,7 @@ const Projects = () => {
                 <a href="https://github.com/Nabeel-Anwar1/SnookerScorer" target="_blank" rel="noopener noreferrer" className="btton">More info!</a>
             </article>
             <article className="whynotcard">
-              <h4>Why Not!</h4> <br/>
+              <h4>Why Not?</h4> <br/>
               <h5>Why Not? is an app where users can create, share and manage their own Bucket Lists.</h5><br/>
               <small>Why Not? is aimed at everyone who has goals they want to achieve before they kick the bucket.
 The app allows users to build their own bucket list, when they complete an item from their bucket list it becomes a story which other users can then view to gain insight/inspiration. Through the app you can view top bucket list items based on rating, other users profiles, and search for events going on in your area.

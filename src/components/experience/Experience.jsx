@@ -8,7 +8,7 @@ const Experience = () => {
         <div className="articles">
         <article>
             <h5>Home Bargains</h5>
-            <small>Currently working part-time at Home Bargains, I am improving on my communication and teamwork as the tasks require lots interaction between myself and my colleagues, and with customers. I am also focused on upskilling and projects in my down-time.</small>
+            <small>Currently working part-time at Home Bargains, I am improving on my communication and teamwork as the tasks require lots of interaction between myself and my colleagues, and with customers. I am also focused on upskilling and projects in my down-time.</small>
           </article>
           <article>
             <h5>Northcoders</h5>

@@ -37,6 +37,8 @@ body {
   font-family: 'Roboto Mono', monospace;
   line-height: 1.6;
   font-size: 0.9rem;
+  height: 100%;
+  width: 100%;
 }
 
 .container {
@@ -49,6 +51,7 @@ section {
   padding: 10rem 0;
   background: lightgrey;
   transition: var(--transition);
+  height: fit-content;
 }
 
 section:nth-child(even) {

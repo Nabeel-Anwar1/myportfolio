@@ -1,8 +1,8 @@
 .projectcards {
     margin-top: 2rem;
     display: grid;
-    grid-template-columns: 45% 45%;
-    gap: 10%;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 4rem;
 }
 
 .whynotcard {
@@ -64,4 +64,10 @@ margin-left: 1rem;
 .btton:hover {
     border-color: var(--col-light);
     transform: translateY(-0.5rem);
+}
+
+@media screen and (max-width: 1024px) {
+    .projectcards {
+        grid-template-columns: 1fr;
+    }
 }

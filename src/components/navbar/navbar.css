@@ -24,5 +24,11 @@ nav {
 }
 
 .nav__logo {
-    width: 5rem;
+    width: 8rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav__menu {
+        display: none;
+    }
 }

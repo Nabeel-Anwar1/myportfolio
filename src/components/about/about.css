@@ -4,6 +4,10 @@
     gap: 12%;
 }
 
+.about__container h2 {
+    margin-bottom: 1rem;
+}
+
 .about__left{
     width: 100%;
 }
@@ -22,7 +26,7 @@
 }
 
 .about__right {
-    margin-left: 8rem;
+    margin-left: 4rem;
 }
 
 .about__right p {
@@ -36,5 +40,19 @@
 @media  screen and (max-width: 1024px) {
     .about__left {
         display: none
+    }
+
+    .about__container {
+        grid-template-columns: 1fr;
+    }
+
+    .about__right p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about__right .Button {
+        margin-top: 2rem;
     }
 }

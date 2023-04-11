@@ -49,6 +49,10 @@
     .about__right p {
         text-align: center;
     }
+
+    .about__right {
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 600px) {

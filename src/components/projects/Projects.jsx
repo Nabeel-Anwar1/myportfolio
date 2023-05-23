@@ -7,9 +7,15 @@ const Projects = () => {
         <h2>Projects</h2>
         <div className="projectcards">
         <article className="whynotcard">
-              <h4>Snooker Scorer (In Progress)</h4> <br/>
+              <h4>LearnCutchi (In Progress)</h4> <br/>
+              <h5>A mobile app where you can learn the language Cutchi!</h5><br/>
+              <small>Generations ago, my family migrated from India to different parts of East Africa. A language called Cutchi, which is a mix of Kutch and Swahili, was created and still used to this day. This app facilitates the learning of the Cutchi language making it accessible and enjoyable. My brother and I are developing this together using standard Git practices as we share a commitment to preserving cultural heritage through technology. </small>
+                <a href="https://github.com/Nabeel-Fayaz/LearnCutchi" target="_blank" rel="noopener noreferrer" className="btton">More info!</a>
+            </article>
+        <article className="whynotcard">
+              <h4>Snooker Scorer</h4> <br/>
               <h5>A mobile app where players can keep track of their scores while playing snooker</h5><br/>
-              <small>Currently in progress! - I made this app because one of my family members is an avid snooker player and they were in need (and asked me) to create an app where they could keep track of scores from across the table and input values that can be added or taken away from the total score. I am in the process of creating the functionality first and then making it look nice, then finally adding any extra functionality.</small>
+              <small>I made this app because one of my family members is an avid snooker player and they were in need (and asked me) to create an app where they could keep track of scores from across the table and input values that can be added or taken away from the total score. I am in the process of creating the functionality first and then making it look nice, then finally adding any extra functionality.</small>
                 <a href="https://github.com/Nabeel-Anwar1/SnookerScorer" target="_blank" rel="noopener noreferrer" className="btton">More info!</a>
             </article>
             <article className="whynotcard">

@@ -1,21 +1,32 @@
 import "./App.css";
-import About from "./components/about/About";
-import Contact from "./components/contact/Contact";
-import Experience from "./components/experience/Experience";
-import Header from "./components/header/Header";
-import Navbar from "./components/navbar/Navbar";
-import Projects from "./components/projects/Projects";
+import HomePage from "./components/home/HomePage";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import LearnCutchi from "./components/projects/LearnCutchi";
+import SnookerScorer from "./components/projects/SnookerScorer";
+import { useLayoutEffect } from "react";
 
+const Wrapper = ({ children }) => {
+  const location = useLocation();
+  useLayoutEffect(() => {
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant",
+    });
+  }, [location.pathname]);
+  return children;
+};
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Header />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-    </div>
+    <BrowserRouter>
+      <Wrapper>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/LearnCutchi" element={<LearnCutchi />} />
+          <Route path="/SnookerScorer" element={<SnookerScorer />} />
+        </Routes>
+      </Wrapper>
+    </BrowserRouter>
   );
 }
 

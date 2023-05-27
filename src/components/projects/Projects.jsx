@@ -1,4 +1,5 @@
 import "./projects.css"
+import {Link} from "react-router-dom"
 
 const Projects = () => {
   return (
@@ -10,13 +11,13 @@ const Projects = () => {
               <h4>LearnCutchi (In Progress)</h4> <br/>
               <h5>A mobile app where you can learn the language Cutchi!</h5><br/>
               <small>Generations ago, my family migrated from India to different parts of East Africa. A language called Cutchi, which is a mix of Kutch and Swahili, was created and still used to this day. This app facilitates the learning of the Cutchi language making it accessible and enjoyable. My brother and I are developing this together using standard Git practices as we share a commitment to preserving cultural heritage through technology. </small>
-                <a href="https://github.com/Nabeel-Fayaz/LearnCutchi" target="_blank" rel="noopener noreferrer" className="btton">More info!</a>
+                <Link to={"/LearnCutchi"}><pressable className="btton">More Info!</pressable></Link>
             </article>
         <article className="whynotcard">
               <h4>Snooker Scorer</h4> <br/>
               <h5>A mobile app where players can keep track of their scores while playing snooker</h5><br/>
-              <small>I made this app because one of my family members is an avid snooker player and they were in need (and asked me) to create an app where they could keep track of scores from across the table and input values that can be added or taken away from the total score. I am in the process of creating the functionality first and then making it look nice, then finally adding any extra functionality.</small>
-                <a href="https://github.com/Nabeel-Anwar1/SnookerScorer" target="_blank" rel="noopener noreferrer" className="btton">More info!</a>
+              <small> A mobile app for snooker enthusiasts who want to keep track of their game scores in style! Say goodbye to tedious manual calculations and hello to a user-friendly digital scoring experience. I made this app because one of my friends is an avid snooker player and they were in need of a way to keep track of scores.</small>
+                <Link to={"/SnookerScorer"}><pressable className="btton">More Info!</pressable></Link>
             </article>
             <article className="whynotcard">
               <h4>Why Not?</h4> <br/>
@@ -25,7 +26,7 @@ const Projects = () => {
 The app allows users to build their own bucket list, when they complete an item from their bucket list it becomes a story which other users can then view to gain insight/inspiration. Through the app you can view top bucket list items based on rating, other users profiles, and search for events going on in your area.
 Interaction with other users through messaging allows sharing of experiences and potential for people to accomplish bucket list goals together.
 The idea behind the app came from wanting to have more of a 'Why Not?' attitude to be more spontaneous and push beyond your comfort zone to achieve big goals/lifelong ambitions.</small>
-          <a href="https://northcoders.com/projects/nov-2022/why-not" target="_blank" rel="noopener noreferrer" className="btton">More info!</a>
+          <a href="https://northcoders.com/projects/nov-2022/why-not" target="_blank" rel="noopener noreferrer" className="btton">Demo and Description</a>
             </article>
             <article className="ncgamescard">
               <h4>NC Games</h4> <br/>

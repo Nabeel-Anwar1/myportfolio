@@ -5,7 +5,6 @@ import Experience from "./components/experience/Experience";
 import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
-/*import Footer from "./components/footer/Footer";*/
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
-      {/*<Footer />*/}
     </div>
   );
 }

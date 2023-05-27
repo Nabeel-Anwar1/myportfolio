@@ -1,5 +1,5 @@
 import "./about.css"
-import CV from "../../assests/CV-Nabeel_Anwar.pdf"
+import CV from "../../assests/Nabeel-CV.pdf"
 import {HiDownload} from "react-icons/hi"
 import AboutMeImg from "../../assests/me3.jpg"
 

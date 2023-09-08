@@ -27,7 +27,7 @@ function App() {
           }
         });
       },
-      { rootMargin: "-200px" }
+      { rootMargin: "-100px" }
     );
     const viewbox = document.querySelectorAll(".sect");
     viewbox.forEach((image) => {

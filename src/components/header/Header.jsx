@@ -1,17 +1,18 @@
 import "./header.css"
 import {AiFillLinkedin} from "react-icons/ai"
 import {AiFillGithub} from "react-icons/ai"
-import Me from "../../assests/me2.png"
+// import Me from "../../assests/me2.png"
 
 const Header = () => {
   return (
     <header id="header" className="sect">
       <div className="container header__container">
-        <div className="header__profile">
+        {/* <div className="header__profile">
           <img src={Me} alt="Nabeel" className="MeImg"/>
-        </div>
+        </div> */}
         <h3>Nabeel Anwar</h3>
-        <p>Welcome to my website!</p>
+        <p>Software Developer</p>
+        <small>JavaScript | REACT | Node.js | Express.js | PSQL | Jest</small>
         <div className="header__cta">
           <a href="#contact" className="Button primary">Get in contact!</a>
           <a href="#projects" className="Button primary">My Work</a>

@@ -19,15 +19,16 @@ const Wrapper = ({ children }) => {
 
 function App() {
   useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("sect-animation");
-        } else {
-          entry.target.classList.remove("sect-animation");
-        }
-      });
-    });
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("sect-animation");
+          }
+        });
+      },
+      { rootMargin: "-200px" }
+    );
     const viewbox = document.querySelectorAll(".sect");
     viewbox.forEach((image) => {
       observer.observe(image);

@@ -1,6 +1,5 @@
 .about__container {
     display: grid;
-    grid-template-columns: 35% 53%;
     gap: 12%;
 }
 
@@ -25,16 +24,23 @@
     width: 30rem;
 }
 
-.about__right {
-    margin-left: 4rem;
-}
-
 .about__right p {
     margin-bottom: 0.8rem;
 }
 
+.abp {
+    margin-top: 2rem;
+}
+
 .about__right .Button {
     margin-top: 2.5rem;
+}
+
+.about__cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
 }
 
 @media  screen and (max-width: 1024px) {

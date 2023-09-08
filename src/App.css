@@ -1,0 +1,15 @@
+@keyframes enter-animation {
+    0% {
+      transform: translateY(90px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .sect-animation {
+      animation: enter-animation 0.8s 1;
+    }
+  }

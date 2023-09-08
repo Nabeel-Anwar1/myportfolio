@@ -6,6 +6,7 @@ import Navbar from "../navbar/Navbar";
 import Projects from "../projects/Projects";
 
 const HomePage = () => {
+
     return <div className="App">
         <Navbar />
         <Header />

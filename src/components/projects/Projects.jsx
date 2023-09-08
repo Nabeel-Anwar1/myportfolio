@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 
 const Projects = () => {
   return (
-    <section id="projects">
+    <section id="projects" className="sect">
       <div className="container projects__container">
         <h2>Projects</h2>
         <div className="projectcards">

@@ -3,7 +3,7 @@ import HomePage from "./components/home/HomePage";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import LearnCutchi from "./components/projects/LearnCutchi";
 import SnookerScorer from "./components/projects/SnookerScorer";
-import { useLayoutEffect } from "react";
+import { useLayoutEffect, useEffect } from "react";
 
 const Wrapper = ({ children }) => {
   const location = useLocation();
@@ -16,7 +16,24 @@ const Wrapper = ({ children }) => {
   }, [location.pathname]);
   return children;
 };
+
 function App() {
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("sect-animation");
+        } else {
+          entry.target.classList.remove("sect-animation");
+        }
+      });
+    });
+    const viewbox = document.querySelectorAll(".sect");
+    viewbox.forEach((image) => {
+      observer.observe(image);
+    });
+  }, []);
+
   return (
     <BrowserRouter>
       <Wrapper>

@@ -5,7 +5,7 @@ import Me from "../../assests/me2.png"
 
 const Header = () => {
   return (
-    <header id="header">
+    <header id="header" className="sect">
       <div className="container header__container">
         <div className="header__profile">
           <img src={Me} alt="Nabeel" className="MeImg"/>

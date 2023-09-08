@@ -2,7 +2,7 @@ import "./experience.css"
 
 const Experience = () => {
   return (
-    <section id="experience">
+    <section id="experience" className="sect">
       <div className="container experiences_container">
         <h2>Experience</h2>
         <div className="articles">

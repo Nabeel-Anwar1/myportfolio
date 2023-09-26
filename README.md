@@ -1,3 +1,5 @@
 Nabeel Anwar's Portfolio
 
-Have a look here: https://tinyurl.com/nabeelsportfolio
+Created using React!
+
+Have a look here: https://nabeelsportfolio.netlify.app/

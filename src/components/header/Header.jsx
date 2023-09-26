@@ -10,34 +10,32 @@ const Header = () => {
         {/* <div className="header__profile">
           <img src={Me} alt="Nabeel" className="MeImg"/>
         </div> */}
-        <div className="sect">
-          <h3>Nabeel Anwar</h3>
-          <p>Software Developer</p>
-          <small>JavaScript | REACT | Node.js | Express.js | PSQL | Jest</small>
-          <div className="header__cta">
-            <a href="#contact" className="Button primary">
-              Get in contact!
-            </a>
-            <a href="#projects" className="Button primary">
-              My Work
-            </a>
-          </div>
-          <div className="header__socials">
-            <a
-              href="https://www.linkedin.com/in/nabeel-anwar/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <AiFillLinkedin size={"3rem"} />
-            </a>
-            <a
-              href="https://github.com/nabeel-anwar1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {<AiFillGithub size={"3rem"} />}
-            </a>
-          </div>
+        <h3>Nabeel Anwar</h3>
+        <p>Software Developer</p>
+        <small>JavaScript | REACT | Node.js | Express.js | PSQL | Jest</small>
+        <div className="header__cta">
+          <a href="#contact" className="Button primary">
+            Get in contact!
+          </a>
+          <a href="#projects" className="Button primary">
+            My Work
+          </a>
+        </div>
+        <div className="header__socials">
+          <a
+            href="https://www.linkedin.com/in/nabeel-anwar/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillLinkedin size={"3rem"} />
+          </a>
+          <a
+            href="https://github.com/nabeel-anwar1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {<AiFillGithub size={"3rem"} />}
+          </a>
         </div>
       </div>
     </header>

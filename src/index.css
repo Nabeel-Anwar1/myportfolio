@@ -26,6 +26,8 @@
 }
 
 html {
+  overflow-y: scroll;
+  scroll-snap-type: y proximity;
   scroll-behavior: smooth;
 }
 
@@ -48,9 +50,14 @@ body {
 }
 
 section {
+  scroll-snap-align: center;
+  height: calc(100vh);
   padding: 10rem 0;
   background: lightgrey;
   transition: var(--transition);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 section:nth-child(even) {
@@ -157,12 +164,17 @@ h6 {
     font-size: 1rem;
   }
 
+  html {
+    scroll-snap-type: none;
+  }
+
   .container {
     width: var(--container-width-med);
   }
 
   section {
     padding: 8rem 0;
+    height: 100%
   }
 
   section > p {
@@ -176,6 +188,10 @@ h6 {
 }
 
 @media screen and (max-width: 600px) {
+  html {
+    scroll-snap-type: none;
+  }
+  
   h1 {
     font-size: 2.4rem;
   }
@@ -193,6 +209,10 @@ h6 {
   }
   .btn {
     padding: 0.6rem 1.5rem
+  }
+
+  section {
+    height: 100%
   }
 
   section > p {

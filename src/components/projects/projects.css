@@ -71,3 +71,10 @@ margin-left: 1rem;
         grid-template-columns: 1fr;
     }
 }
+
+@media screen and (max-width: 1600px) {
+    .projectcards article {
+        overflow: scroll;
+        height: 20rem;
+    }
+}

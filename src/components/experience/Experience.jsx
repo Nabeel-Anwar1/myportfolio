@@ -17,11 +17,14 @@ const Experience = () => {
                 down-time.
               </p>
             </article>
-            <h4>AT Telecom Ltd</h4>
+            <article>
+              <h4>AT Telecom Ltd</h4>
               <p>
-              Worked as a front end developer as part of a small team and helped create and maintain key products for the company. 
-              Primarily worked on website creation using React and testing using Cypress and manual testing. 
-              Aided with code reviews and managing documentation.
+                Worked as a front end developer as part of a small team and
+                helped create and maintain key products for the company.
+                Primarily worked on website creation using React and testing
+                using Cypress and manual testing. Aided with code reviews and
+                managing documentation.
               </p>
             </article>
             <article>
